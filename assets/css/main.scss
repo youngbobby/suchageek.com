@@ -1,0 +1,63 @@
+@import 'latex.css';
+
+svg:not(:host).svg-inline--fa,
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+
+
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+
+
+header {
+    h1:first-child {
+        text-align: left;
+        color: #000;
+        margin-bottom: 0;
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    p {
+        margin-top: .5rem;
+        margin-bottom: .3rem;
+    }
+
+
+}
+
+h1:first-child {
+    text-align: left;
+    // margin-bottom: .1rem;
+    margin-top: 1.5rem;
+}
+
+body {
+    max-width: 80ch;
+}
+
+h2 {
+    margin-top: 1.5em;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+table {
+    margin-top: 2rem;
+}

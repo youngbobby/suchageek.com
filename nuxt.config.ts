@@ -3,14 +3,23 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
-    // '@nuxtjs/tailwindcss',
-    // 'latex.css'
+    '@nuxtjs/tailwindcss',
+    // 'latex.css/latex.css'
   ],
   content: {
     // https://content.nuxtjs.org/api/configuration
   },
   app: {
     head: {
+      title: "Emmanuel Ibe | Such A Geek",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Articles focused on the beautiful art of landscape painting.",
+        }
+      ],
       link: [
         {
           rel: 'stylesheet',
@@ -22,5 +31,9 @@ export default defineNuxtConfig({
         }
       ]
     }
-  }
+  },
+  css: ['~/assets/css/main.scss'],
+
+
+
 })

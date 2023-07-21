@@ -1,34 +1,47 @@
+
+<script setup lang="ts">
+import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
+const query: QueryBuilderParams = { path: '/articles', where: [{ layout: 'article' }], limit: 5, sort: [{ date: -1 }] }
+</script>
+
+
 <template>
     <div>
-        <h2>Hi, I'm Emmanuel, this is where I write</h2>
-    </div>
-
-    <div>
-        <h2>Bio</h2>
-        <p>Sebastian is a software developer and tinkerer who has spent over a decade building web applications across
-            healthcare, media, and finance sectors. In 2013 Sebastian founded Datablast - a software development & data
-            consultancy, with clients as diverse as the NHS, Global Radio, Strava, Barclay's and Schroders. Sebastian also
-            spends his time creating side projects and products, a process that he calls "Tinkering with convexity".
+        <h2>About</h2>
+        <p>
+            Emmanuel is an Analytical Tech entrepreneur with 10+ years of experience and a passion for developing innovative
+            and value-added products/services based on disruptive web and mobile technologies. He currently sits as a
+            Founder & CEO of a fast-growing Business Intelligence platform called "StartupList Africa" which provides
+            valuable knowledge & insight into the African Startup Ecosystem.
         </p>
 
-        <!-- <p>
-            Sebastian holds a BA and MA from the University of Chester, and an MSc in Software Engineering from the
-            University of Oxford. He is a (very bad) hobby photographer, and lives in London.
-        </p> -->
     </div>
+
+
+    <!-- <div>
+        <h2>Popular articles</h2>
+        <ul>
+            <li><a href="#">Cooking For Founders</a> – Jan 10, 2021</li>
+            <li><a href="#">Cooking For Founders</a> – Jan 10, 2021</li>
+        </ul>
+    </div> -->
 
 
     <div>
-        <h2>Popular posts</h2>
-        <ul>
-            <li><a href="#">Cooking For Founders</a> Jan 10, 2021</li>
-        </ul>
+        <h2>Recent articles</h2>
+        <ContentList path="/articles" v-slot="{ list }">
+            <ul v-for="article in list" :key="article._path">
+                <li>
+                    <NuxtLink :to="article._path">{{ article.title }}</NuxtLink>
+                </li>
+                <!-- <li>{{ article.title }}</li> -->
+            </ul>
+        </ContentList>
     </div>
 
-
-    <div class="abstract">
+    <!-- <div class="abstract">
         <h2>Abstract</h2>
         <p>...</p>
-    </div>
+    </div> -->
 </template>
   
