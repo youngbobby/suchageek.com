@@ -17,7 +17,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Articles focused on the beautiful art of landscape painting.",
+            "Musings of a Software Engineer, Entrepreneur, and Life-long Learner.",
         }
       ],
       link: [
