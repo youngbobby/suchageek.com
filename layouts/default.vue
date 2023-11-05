@@ -61,7 +61,7 @@
                     <NuxtLink to="/reading">Reading</NuxtLink> -->
                 </div>
                 
-                <p class="font-mono text-sm text-center">Fingerprint: 0328 C83A 3372 5172</p>
+                <p class="font-mono text-sm text-center md:text-left">Fingerprint: 0328 C83A 3372 5172</p>
 
                 <div class="my-4">
                     <svg class="svg-inline--fa fa-twitter text-2xl" aria-hidden="true"
