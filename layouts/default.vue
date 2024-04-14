@@ -18,9 +18,10 @@
         <p class="font-normal text-base my-0 text-gray-500">Such a Geek</p>
       </span>
 
-      <nav
-        class="font-mono text-xs grow justify-end items-center flex gap-1 md:gap-3"
-      >
+      <nav class="text-base grow justify-end items-center flex gap-1 md:gap-3">
+        <NuxtLink to="/articles" class="ml-2">Articles</NuxtLink>
+        <NuxtLink to="/projects" class="ml-2">Projects</NuxtLink>
+        <NuxtLink to="/reading" class="ml-2">Reading</NuxtLink>
         <!-- <a class="inline-flex hover:bg-gray-200 dark:hover:bg-[#313131] active:bg-gray-300 dark:active:bg-[#242424] rounded-sm p-2 transition-[background-color]" href="/about">
                     About
                 </a> -->
@@ -55,8 +56,8 @@
         </p>
         <div class="flex justify-center md:justify-start">
           → <NuxtLink to="/articles" class="ml-2">Articles</NuxtLink>,
-          <NuxtLink to="/projects" class="ml-2">Projects</NuxtLink>
-          <!-- <NuxtLink to="/reading"  class="ml-2">Reading</NuxtLink>   -->
+          <NuxtLink to="/projects" class="ml-2">Projects</NuxtLink>,
+          <NuxtLink to="/reading" class="ml-2">Reading</NuxtLink>
           <!-- <NuxtLink to="/articles" class="mr-2">Articles</NuxtLink>
                     <NuxtLink to="/projects" class="mr-2">Projects</NuxtLink>
                     <NuxtLink to="/reading">Reading</NuxtLink> -->
