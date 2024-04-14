@@ -6,7 +6,7 @@ const query: QueryBuilderParams = { path: '/blog', where: [{ layout: 'blog' }], 
 
 
 <template>
-    <div>
+    <div class="container">
         <h1>All Articles</h1>
         <p>Here are all the articles I have written so far:</p>
         <ContentList path="/blog" v-slot="{ list }">

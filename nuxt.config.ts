@@ -21,10 +21,10 @@ export default defineNuxtConfig({
         }
       ],
       link: [
-        {
-          rel: 'stylesheet',
-          href: 'https://latex.now.sh/style.css'
-        },
+        // {
+        //   rel: 'stylesheet',
+        //   href: 'https://latex.now.sh/style.css'
+        // },
         {
           rel: 'stylesheet',
           href: 'https://latex.now.sh/prism/prism.css'

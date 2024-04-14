@@ -65,9 +65,14 @@ h1:first-child {
     letter-spacing: -1.8px;
 }
 
+.container {
+    max-width: 70ch;
+    margin: 0 auto;
+}
+
 body {
-    max-width: 95ch;
-    margin-left: 60px;
+    width: 100%;
+    // margin-left: 60px;
 }
 
 h2 {
