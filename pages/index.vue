@@ -9,7 +9,7 @@ const query: QueryBuilderParams = {
 </script>
 
 <template>
-  <div class="px-4 max-w-2xl">
+  <div class="md:px-12 max-w-2xl">
     <!-- Welcome section-->
     <div class="mb-8">
       <h2 class="mb-4">Hi!</h2>

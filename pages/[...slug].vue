@@ -1,5 +1,5 @@
 <template>
-  <main class="max-w-2xl px-4">
+  <main class="max-w-2xl px-4 md:pl-10">
     <template v-if="$route.path.startsWith('/blog/')">
       <nav class="text-gray-700 text-sm mb-4">
         <NuxtLink to="/" class="hover:underline">Home</NuxtLink>

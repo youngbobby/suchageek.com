@@ -28,7 +28,10 @@
     </header>
 
     <!-- Index page header -->
-    <header v-if="isIndexPage" class="flex flex-col md:flex-row items-center">
+    <header
+      v-if="isIndexPage"
+      class="pl-12 flex flex-col md:flex-row items-center"
+    >
       <div class="flex-shrink-0">
         <a href="/">
           <img
