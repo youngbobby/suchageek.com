@@ -16,6 +16,7 @@
     "nuxt": "^3.6.1"
   },
   "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.6",
     "latex.css": "^1.9.0",
     "sass": "^1.63.6"
   }

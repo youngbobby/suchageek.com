@@ -1,4 +1,4 @@
-# Hello World
+# First Post
 
 I'm choosing to kickstart this blog with the century old "Hello World" greeting as my own way kickstarting my writing journey on this blog.
 
