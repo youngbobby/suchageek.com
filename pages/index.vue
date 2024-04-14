@@ -4,12 +4,12 @@ const query: QueryBuilderParams = {
   path: "/articles",
   where: [{ layout: "article" }],
   limit: 5,
-  sort: [{ date: -1 }],
+  sort: [{ createdAt: -1 }],
 };
 </script>
 
 <template>
-  <div class="md:px-12 max-w-2xl">
+  <div class="md:px-8 max-w-2xl">
     <!-- Welcome section-->
     <div class="mb-8">
       <h2 class="mb-4">Hi!</h2>

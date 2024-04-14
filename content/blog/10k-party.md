@@ -19,6 +19,6 @@ head:
 
 They say the first 100 users is usually the most difficult; however, in my experience, the journey to 10,000 users has been the most arduous yet rewarding milestone to achieve.
 
-A few days ago, one of my web projects reached the 10k user registration milestone.
+A few days ago, one of my web projects reached the 10k user registration milestone. It really wasn't my first time hitting that user milestone but something felt different for the circumstances behind this growth.
 
 I've had experience with scaling social accounts (on Instagram) to over 10k users in the past.
