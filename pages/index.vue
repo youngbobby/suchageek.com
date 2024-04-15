@@ -12,7 +12,7 @@ const query: QueryBuilderParams = {
   <div class="md:px-8 max-w-2xl">
     <!-- Welcome section-->
     <div class="mb-8">
-      <h2 class="mb-4">Hi!</h2>
+      <h2 class="mb-4">About</h2>
       <p class="my-5 [blockquote_&amp;]:my-2">
         Welcome to my personal blog where I share insights on coding,
         technology, and my journey through the fascinating world of software
@@ -43,7 +43,7 @@ const query: QueryBuilderParams = {
         <NuxtLink to="/projects">here</NuxtLink>.
       </p>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-gray-700 p-4 rounded-lg">
           <h3 class="text-xl font-semibold mb-2 text-white">
             StartupList Africa
@@ -52,7 +52,21 @@ const query: QueryBuilderParams = {
             Discover, Learn and engage with African Startups.
           </p>
         </div>
-      </div>
+      </div> -->
+    </div>
+
+    <!-- Contact Section -->
+    <div>
+      <h2 class="mb-4">Contact</h2>
+      <p class="text-gray-700 mb-8">
+        I'm always open to new opportunities and collaborations. If you'd like
+        to reach out, please feel free to send me an email at
+        <a href="#" onclick="window.location.href='mailto:' + 'emmaibe101' + '@' + 'gmail' + '.' + 'com';return false;">
+        emmaibe101 [at] gmail [dot] com
+        </a>.
+        
+        <!-- <a href="mailto:">emmaibe101@gmail.com</a>. -->
+      </p>
     </div>
   </div>
 </template>
