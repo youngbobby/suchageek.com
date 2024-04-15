@@ -12,7 +12,7 @@ head:
       content: "index, follow"
 ---
 
-<h1>My Reading List</h1>
+<h1>Books</h1>
 
 A compilation of remarkable books I have read or am currently reading (in no order):
 
